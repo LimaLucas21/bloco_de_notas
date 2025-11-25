@@ -1,0 +1,46 @@
+"Quero criar um bloco de notas em Python usando Tkinter para ter uma interface gráfica (GUI) ao invés de linha de comando. O projeto precisa ter:
+
+- Interface visual com menu e área de texto
+
+- Novo: Limpar o conteúdo atual
+
+- Abrir: Carregar arquivo .txt existente
+
+- Salvar: Salvar conteúdo em arquivo .txt
+
+- Sair: Fechar a aplicação
+
+*Por que Tkinter é ideal:*
+
+- Já vem com Python, nada para instalar além
+
+- Familiar (parecido com Windows Forms)
+
+- Perfeito para projetos de estudo
+
+- Rápido para prototipar
+
+*Objetivos de aprendizado:*
+
+- Criar interfaces gráficas com Tkinter
+
+- Trabalhar com widgets (Text, Menu, FileDialog)
+
+- Manipular arquivos com interface visual
+
+- Gerenciar eventos e callbacks
+
+*Solicitação de orientação:*
+Preciso de um guia sobre:
+
+1 - Estrutura básica de uma aplicação Tkinter
+
+2 - Quais widgets usar para cada funcionalidade
+
+3 - Como implementar os diálogos de abrir/salvar arquivos
+
+4 - Organização do código para manter simples
+
+5 - Boas práticas com Tkinter
+
+Observação: Quero a abordagem passo a passo, não o código pronto, para aprender construindo."
