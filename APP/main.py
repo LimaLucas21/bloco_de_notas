@@ -17,9 +17,9 @@ class BlocoNotas:
         self.MenuEditar = tk.Menu(self.Menu, tearoff=0)
         self.Menu.add_cascade(label="Arquivo", menu=self.MenuArquivo)
         self.Menu.add_cascade(label="Editar", menu=self.MenuEditar)
-        self.MenuArquivo.add_command(label="Novo", command=ConfigBar.novo_arquivo)
+        self.MenuArquivo.add_command(label="Novo", command=self.config_bar.novo_arquivo)
         self.MenuArquivo.add_command(label="Abrir", command=lambda: self.config_bar.abrir_arquivo())
-        self.MenuArquivo.add_command(label="Salvar", command=ConfigBar.menu_arquivo)
+        self.MenuArquivo.add_command(label="Salvar", command=self.config_bar.salvar_arquivo)
         self.MenuArquivo.add_separator()
         self.MenuArquivo.add_command(label="Sair", command=self.janela.quit)
         # 2. Variável para armazenar caminho do arquivo atual

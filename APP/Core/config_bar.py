@@ -6,8 +6,9 @@ class ConfigBar:
         self.app = app
 
     def novo_arquivo(self):
-        pass
-    
+        self.app.Texto.delete('1.0', tk.END)
+        self.app.arquivo_atual = None   
+
     def abrir_arquivo(self):
         arquivo_selecionado = filedialog.askopenfilename()
 
@@ -22,6 +23,8 @@ class ConfigBar:
             except Exception as e:
                 messagebox.showerror("Erro", f"Não foi possível abrir o arquivo: {e}")
         
-    def menu_arquivo(self):
+    def salvar_arquivo(self):
+        if self.app.arquivo_atual:
 
-        pass
+        else:    
+            self.app.arquivo_atual = 
